@@ -1,4 +1,13 @@
 #OOP in Python
 
-x=1
-print(type("hello there"))
+class Dog:
+    def add_one(self, x):
+        return x + 1
+
+    def bark(self):
+        print("bark")
+
+d = Dog()
+d.bark()
+print(d.add_one(5))
+print(type(d))
